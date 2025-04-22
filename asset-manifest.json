@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/NutriTrack/static/js/main.a06c10b4.chunk.js",
+    "main.js.map": "/NutriTrack/static/js/main.a06c10b4.chunk.js.map",
+    "runtime~main.js": "/NutriTrack/static/js/runtime~main.731b0269.js",
+    "runtime~main.js.map": "/NutriTrack/static/js/runtime~main.731b0269.js.map",
+    "static/js/2.bdc847f0.chunk.js": "/NutriTrack/static/js/2.bdc847f0.chunk.js",
+    "static/js/2.bdc847f0.chunk.js.map": "/NutriTrack/static/js/2.bdc847f0.chunk.js.map",
+    "index.html": "/NutriTrack/index.html",
+    "precache-manifest.0b994ff9a7457a222bf924376ca026aa.js": "/NutriTrack/precache-manifest.0b994ff9a7457a222bf924376ca026aa.js",
+    "service-worker.js": "/NutriTrack/service-worker.js"
+  }
+}
