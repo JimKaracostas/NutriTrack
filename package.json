@@ -1,29 +1,40 @@
 {
-  "dependencies": {
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
-    "lucide-react": "^0.503.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-scripts": "^5.0.1",
-    "typescript": "^5.8.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "homepage": "https://JimKaracostas.github.io/NutriTrack/",
+    "name": "nutritrack",
+    "version": "1.0.0",
+    "description": "A nutrition tracking application.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "set NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+        "build": "set NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "lucide-react": "^0.503.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.0.0",
+        "react-scripts": "^3.0.1"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/react": "^19.1.2",
+        "gh-pages": "^6.3.0"
+    }
 }
